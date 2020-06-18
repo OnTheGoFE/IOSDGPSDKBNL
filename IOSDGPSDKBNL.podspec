@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IOSDGPSDKBNL'
-  s.version          = '1.27.0.200'
+  s.version          = '1.27.0.300'
   s.summary          = 'IOS SDK DIGIPRO Formatos Electrónicos (Bundle)'
   s.description      = <<-DESC
 El Bundle framework es utilizado para la generación de formatos electrónicos.
@@ -23,4 +23,6 @@ El Bundle framework es utilizado para la generación de formatos electrónicos.
   s.public_header_files = "DIGIPROSDKBNL.framework/Headers/*.h"
   s.source_files = "DIGIPROSDKBNL.framework/Headers/*.h"
   s.vendored_frameworks = "DIGIPROSDKBNL.framework"
+  s.resources = ['DIGIPROSDKBNL.framework/Assets.car']
+
 end
