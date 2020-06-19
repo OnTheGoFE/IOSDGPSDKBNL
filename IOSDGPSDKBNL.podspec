@@ -23,6 +23,6 @@ El Bundle framework es utilizado para la generación de formatos electrónicos.
   s.public_header_files = "DIGIPROSDKBNL.framework/Headers/*.h"
   s.source_files = "DIGIPROSDKBNL.framework/Headers/*.h"
   s.vendored_frameworks = "DIGIPROSDKBNL.framework"
-  s.resources = ['DIGIPROSDKBNL.framework/Assets.car']
+  s.resources = ['DIGIPROSDKBNL.framework/Assets.bundle']
 
 end
