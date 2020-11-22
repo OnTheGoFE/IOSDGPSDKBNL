@@ -1,6 +1,0 @@
-framework module DIGIPROSDKBNL {
-  umbrella header "DIGIPROSDKBNL.h"
-
-  export *
-  module * { export * }
-}
